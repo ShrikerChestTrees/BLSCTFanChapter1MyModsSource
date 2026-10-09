@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="nospecgui"
+version="1.0.0"
+displayName="No SpectatorGui"
+description="Отключает возможность показывать хотбар спектатора."
+
+[[dependencies.nospecgui]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.230,21.1.231)"
+ordering="NONE"
+side="CLIENT"
+
+[[mixins]]
+config="nospecgui.mixins.json"
