@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.shrikerchesttree.nosuggestions.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CommandSuggestionsMixin",
+    "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
