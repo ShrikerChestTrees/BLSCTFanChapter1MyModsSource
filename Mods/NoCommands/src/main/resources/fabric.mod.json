@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nocommands",
+  "version": "1.0.0",
+  "name": "No Commands",
+  "description": "Удалает команды. В github странице для модераторов/админов BeeLizium можно добавить побольше других команд если надо",
+  "authors": ["_RainBowSheep_"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.beelizium.nocommands.DisabledCommands"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
