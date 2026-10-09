@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dark_damage",
+  "version": "1.0.0",
+  "name": "Dark Damage",
+  "description": "Урон в темноте для 2 части :)",
+  "authors": ["_RainBowSheep_"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.beeshield.dark_damage.DarkDamage"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
