@@ -19,16 +19,7 @@ import static net.minecraft.commands.Commands.literal;
 public class DisabledCommands implements ModInitializer {
     // Список удалённых команд
     private static final String[] toRemove = {
-            "msg", "tell", "me",
-            "balm", "citresewn", "closeguiscreen",
-            "collective", "crafttweaker", "ct",
-            "defaultoptions", "fmlayout", "fmvariable",
-            "forcehorrormessage", "help", "mobcaps",
-            "neoforge", "nomenublur", "oldpistons",
-            "openguiscreen", "placebo", "random",
-            "sc", "servercore", "teammsg",
-            "tm", "tt20", "trigger",
-            "voicechat", "w", "list"
+            "msg", "tell", "me", "balm", "citresewn", "closeguiscreen", "collective", "crafttweaker", "ct", "defaultoptions", "fmlayout", "fmvariable", "forcehorrormessage", "help", "mobcaps", "neoforge", "nomenublur", "oldpistons", "openguiscreen", "placebo", "random", "sc", "servercore", "teammsg", "tm", "tt20", "trigger", "voicechat", "w", "list"
     };
 
     @Override
